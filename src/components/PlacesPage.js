@@ -23,6 +23,37 @@ function PlacesPage() {
             </p>
           </div>
         </div>
+        <div className='Content-F'>
+          <div className='Content-Card'>
+            <div className='card-img'>
+              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+            </div>
+            <div className='card-content'>
+              <h1>Tiir</h1>
+              <h3>Tuur tiir suii en i</h3>
+            </div>
+          </div>
+          {/*  */}
+          <div className='Content-Card'>
+            <div className='card-img'>
+              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+            </div>
+            <div className='card-content'>
+              <h1>Tiir</h1>
+              <h3>Tuur tiir suii en i</h3>
+            </div>
+          </div>
+          {/*  */}
+          <div className='Content-Card'>
+            <div className='card-img'>
+              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+            </div>
+            <div className='card-content'>
+              <h1>Tiir</h1>
+              <h3>Tuur tiir suii en i</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

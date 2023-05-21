@@ -64,26 +64,29 @@ a{
 .ContentBody{
     /* border: 4px solid red; */
     width: 100%;
-    height: 90vh;
+    height: fit-content;
+    background: rgb(61, 61, 75);
 }
 .ContentBar{
     width: 100%;
-    height: 90vh;
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 20px;
     padding: 5%;
-    background: rgb(76, 76, 91);
+    /* background: rgb(76, 76, 91); */
+    /* border: 3px solid red; */
 }
 .Content-Text{
     height: 40vh;
-    width: 60%;
+    width: 100%;
     padding: 20px;
+        /* border: 3px solid red; */
 }
 .Content-Imgs{
     /* border: 4px solid #fff; */
     background: url('https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/af0d99f3-901d-45a0-b6f4-36652bed6a5b/Leonardo_Diffusion_DINING_CHAIRS_with_high_technolody_that_is_0.jpg');
-    width: 130%;
+    width: 100%;
     height: 40vh;
     border-radius: 20px;
     overflow: hidden;
@@ -111,4 +114,42 @@ a{
     background-size: cover;
     width: 100%;
     border-radius: 20px;
+}
+
+.Content-F{
+    /* border: 3px solid red; */
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 0 5%;
+}
+.Content-Card{
+    /* width: 30%; */
+    height: fit-content;
+    padding: 0%;
+    border-radius: 13px;
+    background-color: #fff;
+    /* border: 5px solid red; */
+}
+.card-img{
+    /* border: 4px solid green; */
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.card-content{
+    width: 100%;
+    /* background-color: #fff; */
+    height: 14vh;
+    align-items: center;
+    text-align: center;
+}
+.card-content h1{
+    font-size: 30px;
+}
+.card-content h3{
+    font-size: 25px;
 }
