@@ -26,7 +26,8 @@ function PlacesPage() {
         <div className='Content-F'>
           <div className='Content-Card'>
             <div className='card-img'>
-              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/04647a7c-a95c-44ff-81f0-40e5187d99d5/Leonardo_Diffusion_HyperSensory_Haven_Immerse_yourself_in_the_1.jpg' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/04647a7c-a95c-44ff-81f0-40e5187d99d5/Leonardo_Diffusion_HyperSensory_Haven_Immerse_yourself_in_the_0.jpg' />
             </div>
             <div className='card-content'>
               <h1>Tiir</h1>
@@ -36,7 +37,8 @@ function PlacesPage() {
           {/*  */}
           <div className='Content-Card'>
             <div className='card-img'>
-              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/9f21be12-ac20-4e92-b717-0e562484813e/Leonardo_Diffusion_HyperSensory_Haven_Immerse_yourself_in_the_1.jpg' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/9f21be12-ac20-4e92-b717-0e562484813e/Leonardo_Diffusion_HyperSensory_Haven_Immerse_yourself_in_the_0.jpg' />
             </div>
             <div className='card-content'>
               <h1>Tiir</h1>
@@ -46,13 +48,15 @@ function PlacesPage() {
           {/*  */}
           <div className='Content-Card'>
             <div className='card-img'>
-              <img src='https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/510008fc-7c8b-4928-b835-f283ebe26516/Leonardo_Diffusion_Ethereal_Essence_As_you_approach_the_Ethere_0.jpg?w=512' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/e8a52de5-b083-4e24-99fa-0899854c0d68/Leonardo_Diffusion_Ethereal_Essence_Behold_the_wondrous_Ethere_1.jpg' alt='Product' />
+              <img src='https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/e8a52de5-b083-4e24-99fa-0899854c0d68/Leonardo_Diffusion_Ethereal_Essence_Behold_the_wondrous_Ethere_0.jpg' alt='Product' />
             </div>
             <div className='card-content'>
-              <h1>Tiir</h1>
-              <h3>Tuur tiir suii en i</h3>
+              <h1 className='card-title'>Tiir</h1>
+              <h3 className='card-description'>Tuur tiir suii en i</h3>
             </div>
           </div>
+
         </div>
       </div>
     </div>
