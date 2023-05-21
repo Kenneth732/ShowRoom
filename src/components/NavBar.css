@@ -160,6 +160,11 @@ a{
     flex: 0 0 200px;
     margin: 5px;
     border-radius: 8px;
+    transition: .5s;
+  }
+  .card-img img:hover {
+    transform: scale(0.97);
+    cursor: pointer;
   }
   
   .card-content {
